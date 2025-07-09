@@ -1,4 +1,4 @@
-# laboratoria-analise-risco
+# analise_de_risco_laboratoria
 
 # 1. Contexto e Objetivo da Análise
 
