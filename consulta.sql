@@ -1,3 +1,5 @@
+-- ```sql
+
 WITH dados_completos AS (
   SELECT
     DISTINCT loan.user_id,
@@ -47,3 +49,5 @@ SELECT
 FROM dados_com_faixa
 GROUP BY faixa_risco
 ORDER BY faixa_risco
+
+-- ```
