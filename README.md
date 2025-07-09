@@ -151,5 +151,11 @@ Depois de diversos ajustes do modelo preditivo, chegou-se a conclusão que seria
 Acredito que pela presença de outliers que optei em não excluir, a regressão logística não conseguiu encontrar um padrão claro para prever os inadimplentes, já com o Random Forest os inadimplentes foram detectados quase perfeitamente, o que deixou o modelo mais estável e confiável para os dados reais. O ajuste do modelo preditivo resultou na seguinte matriz:
 ![Matriz de confusão](imagens/matriz_de_confusao.png)
 
+Como nosso foco é identificar clientes inadimplentes, o modelo apresentou excelente precisão para classe 1, com 99% (poucos falsos positivos - 4). Recall de 99% também, para os inadimplentes, poucos falsos negativos - 5. A acurácia geral é também de 99%, ou seja, o modelo está bem balanceado, não deixando de identificar a classe minoritária (inadimplentes), nem confundindo os demais.
 
+
+# Conclusões e Recomendações
+A inadimplência está relacionada à combinação de múltiplos fatores, destacam-se os fatores de alto risco observados: alto uso de crédito não garantido, histórico de atrasos (30-59 dias) e salário incompatível. Também há relevância de dados demográficos como idade e número de dependentes.
+
+Sugere-se a criação de alertas e bloqueios para mitigar riscos, além da redução do limite de crédito para clientes presentes na faixa de alto risco. O modelo preditivo deve ser testado para uma segura implementação, contando, talvez inicialmente, com um processo manual complementar.
 
