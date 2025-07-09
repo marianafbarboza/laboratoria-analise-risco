@@ -1,4 +1,4 @@
-# analise_de_risco_laboratoria
+# laboratoria-analise-risco
 
 # 1. Contexto e Objetivo da Análise
 
@@ -17,6 +17,9 @@ Sendo assim, o objetivo é automatizar o processo de análise de crédito do ban
 - Google Looker Studio: Criação e edição de painéis e relatórios de dados;
 
 
-# 3. Conjunto de dados (dataset) analisado
+# 3. Conjunto de dados (dataset) e preparação da base para análise
 O conjunto de dados está disponível no arquivo *banco_caja.zip* deste projeto.
 A descrição de como estão organizadas as tabelas e variáveis que as compõe, podem ser verificadas [aqui](Dataset.md).
+
+As tabelas possuem o seguinte relacionamento:
+![Relacionamento de tabelas](relacionamento_tablas.png)
