@@ -148,8 +148,8 @@ A regressão logística trata-se de uma extensão da análise de correlação re
 
 Depois de diversos ajustes do modelo preditivo, chegou-se a conclusão que seria melhor a utilização do modelo não linear Random Forest. Isso, devido ao fato dele não assumir nenhuma fórmula matemática rígida, como a regressão logística. Então ele simplesmente, aprende com base num “se…então”, que levou a resultados melhores para os dados analisados, pois permitiu capturar padrões mais complexos entre as variáveis.
 
-Acredito que pela presença de outliers que optei em não excluir, a regressão logística não conseguiu encontrar um padrão claro para prever os inadimplentes, já com o Random Forest os inadimplentes foram detectados quase perfeitamente, o que deixou o modelo mais estável e confiável para os dados reais.
+Acredito que pela presença de outliers que optei em não excluir, a regressão logística não conseguiu encontrar um padrão claro para prever os inadimplentes, já com o Random Forest os inadimplentes foram detectados quase perfeitamente, o que deixou o modelo mais estável e confiável para os dados reais. O ajuste do modelo preditivo resultou na seguinte matriz:
+![Matriz de confusão](imagens/matriz_de_confusao.png)
 
-O ajuste do modelo preditivo resultou na seguinte matriz:
 
 
