@@ -1,4 +1,4 @@
-dados_completos AS (
+WITH dados_completos AS (
   SELECT
     DISTINCT loan.user_id,
     u.age,
