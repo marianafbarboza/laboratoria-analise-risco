@@ -23,3 +23,12 @@ A descrição de como estão organizadas as tabelas e variáveis que as compõe,
 
 As tabelas possuem o seguinte relacionamento:
 ![Relacionamento de tabelas](relacionamento_tablas.png)
+
+A importação da base de dados foi realizada no BigQuery, onde foram realizadas consultas para verificação e tratamento de valores nulos e duplicados.
+Utilizando a função SQL `SELECT COUNT DISTINCT`, observou-se que as tabelas apresentaram 36.000 registros únicos pelo user_id, exceto a tabela loans_outstanding, com 35.575 registros. 
+Ou seja, há 425 registros que não possuem informação de user_id na tabela loans_outstanding, para os user_id existentes na tabela user_info. Esse valor representa cerca de 1% da amostra total e portanto, optou-se por excluir tais valores (realizando INNER JOIN e considerando o user_id da tabela loans_outstanding), já que não temos identificação destes clientes e a análise poderia ficar prejudicada.
+
+
+Na sequência, para entender melhor a distribuição dos dados e possíveis correlações, foi calculada a correlação entre as variáveis da tabela loans_details, e o desvio padrão de algumas delas, a fim de identificar qual a melhor variável para considerar no modelo de regressão linear. Foi escolhida a variável `number_times_delayed_payment_loan_30_59_days`.
+
+Quanto a identificação de outliers, optei por não excluir nem tratar tais valores, considerando que podemos fazer uma análise mais robusta na etapa seguinte, análise exploratória, e tratar tais dados, caso interfiram fortemente na análise.
