@@ -48,4 +48,5 @@ Informação dos clientes já identificados como inadimplentes.
 |--------|----------|
 | user_id | Número de identificação do cliente |
 | default_flag | classificação dos clientes inadimplentes* |
+
 *(1 para clientes já registrados alguma vez como inadimplentes, 0 para clientes sem histórico de inadimplência);
