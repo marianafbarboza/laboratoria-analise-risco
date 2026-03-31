@@ -1,15 +1,22 @@
-# laboratoria-analise-risco
+# 📊 Análise de Risco e Segmentação de Clientes
+Este projeto analisa o perfil de risco de clientes com o objetivo de identificar padrões e apoiar a tomada de decisão em cenários de crédito / negócio.
 
-# 1. Contexto e Objetivo da Análise
+A análise busca entender quais características estão associadas a maior probabilidade de risco, permitindo segmentar clientes e reduzir perdas.
 
-O Banco Super Caja está enfrentando o desafio de automatizar o seu processo de análise de crédito, através de técnicas de análise avançadas de dados que visam melhorar a eficiência, precisão e rapidez destas análises. 
-Atualmente a análise é realizada de forma manual, o que representa uma demanda alta para o setor, sobrecarregando o mesmo e afetando negativamente o prazo para análises e, consequentemente, a satisfação dos clientes.
-A automação do processo irá permitir ao banco uma melhor tomada de decisão na concessão de créditos, além de fortalecer a capacidade do modelo de identificação de riscos, contribuindo para a solidez financeira e eficiência operacional do banco.
-As principais questões que procuraremos responder incluem: 
-- Quais variáveis ​​mais influenciam o risco de inadimplência?
-- Como essas variáveis ​​se correlacionam entre si e com o comportamento de pagamento do cliente?
 
-Sendo assim, o objetivo é automatizar o processo de análise de crédito do banco Caja.
+---
+
+## 🎯 Problema de Negócio
+
+Como identificar clientes com maior risco de inadimplência (ou comportamento de risco)?
+
+A análise tem como objetivo apoiar decisões como:
+- concessão de crédito;
+- definição de limites;
+- estratégias de mitigação de risco.
+
+---
+
 
 # 2. Ferramentas e Tecnologias utilizadas
 - Google BigQuery: Data warehouse que permite o processamento de manipulação de grandes volumes de dados em SQL;
