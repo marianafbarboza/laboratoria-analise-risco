@@ -1,5 +1,5 @@
 ## Dataset
-O conjunto de dados está disponível no arquivo [banco_caja.zip].(/banco_caja.zip) e é composto por quatro tabelas principais:
+O conjunto de dados está disponível no arquivo *banco_caja.zip* e é composto por quatro tabelas principais:
 
 
 ### user_info
