@@ -44,7 +44,7 @@ Para detalhes técnicos, consulte a pasta /sql.
 
 ---
 
-## 📊 Principais Insights
+## Principais Insights
 
 ### ⚠️ Perfil de alto risco
 - Clientes com determinadas características apresentam maior probabilidade de risco  
@@ -60,7 +60,7 @@ Para detalhes técnicos, consulte a pasta /sql.
 
 ---
 
-## 💡 Recomendações
+## Recomendações
 
 - Criar políticas diferenciadas para clientes de alto risco  
 - Monitorar variáveis críticas ao longo do tempo  
