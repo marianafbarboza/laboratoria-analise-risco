@@ -19,4 +19,4 @@ INNER JOIN `view-novas-variaveis` loan
 LEFT JOIN `view-loans_details` ld
   ON loan.user_id = ld.user_id
 LEFT JOIN `default` d
-  ON loan.user_id = d.user_id
+  ON loan.user_id = d.user_id;
