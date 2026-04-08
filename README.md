@@ -67,6 +67,7 @@ Foi testado um modelo de Machine Learning:
 - Melhor adaptação a dados com outliers;
 - Capacidade de capturar relações não lineares;
 
+---
 
 ##  Resultados
 Acurácia: ~99%
@@ -77,7 +78,7 @@ Alto número de empréstimos está associado à inadimplência
 Uso elevado de crédito e atrasos são fortes indicadores de risco
 Variáveis isoladas têm baixo poder explicativo → necessidade de combinação (score)
 
-
+---
 
 ##  Principais Aprendizados
 - Importância do tratamento de dados antes da análise;
@@ -85,6 +86,8 @@ Variáveis isoladas têm baixo poder explicativo → necessidade de combinação
 - Aplicação de técnicas estatísticas em problemas de negócio;
 - Construção de modelos interpretáveis (score de risco);
 - Comparação entre abordagens estatísticas e ML;
+
+---
 
 ## Recomendações
 - Criar políticas diferenciadas para clientes de alto risco  
