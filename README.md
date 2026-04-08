@@ -25,14 +25,14 @@ A análise tem como objetivo apoiar decisões como:
 
 ---
 
-## Base de dados
+##  Base de dados
 A base de dados utilizada está disponível no arquivo [banco_caja.zip](data/banco_caja.zip) deste projeto.
 
 A descrição da estrutura das tabelas e das variáveis pode ser consultada [aqui](docs/Dataset.md).
 
 ---
 
-## Ferramentas e habilidades
+##  Ferramentas e habilidades
 - SQL;
 - BigQuery;
 - Google Colab;
@@ -44,8 +44,7 @@ Para detalhes técnicos, consulte a pasta /sql.
 
 ---
 
-## Avaliação do Modelo
-
+##  Avaliação do Modelo
 O modelo foi avaliado com base em:
 
 - Acurácia;
@@ -53,8 +52,8 @@ O modelo foi avaliado com base em:
 - Recall;
 - Matriz de confusão;
 
-Resultados (exemplo com limiar 22):
 
+Resultados (exemplo com limiar 22):
 Acurácia: 88,89%
 Precisão: 64,15%
 Recall: 9,7%
@@ -62,15 +61,14 @@ Recall: 9,7%
 O modelo apresentou perfil conservador, com baixa taxa de falsos negativos.
 
 
-## Modelo Avançado (Random Forest)
-
+##  Modelo Avançado (Random Forest)
 Foi testado um modelo de Machine Learning:
 - Comparação com regressão logística;
 - Melhor adaptação a dados com outliers;
 - Capacidade de capturar relações não lineares;
 
-## Resultados
 
+##  Resultados
 Acurácia: ~99%
 Alta precisão e recall para inadimplentes
 📊 Resultados e Insights
@@ -80,7 +78,8 @@ Uso elevado de crédito e atrasos são fortes indicadores de risco
 Variáveis isoladas têm baixo poder explicativo → necessidade de combinação (score)
 
 
-## Principais Aprendizados
+
+##  Principais Aprendizados
 - Importância do tratamento de dados antes da análise;
 - Limitações de correlação linear em dados reais;
 - Aplicação de técnicas estatísticas em problemas de negócio;
