@@ -1,7 +1,7 @@
 # 📊 Análise de Risco e Segmentação de Clientes
-Este projeto analisa o perfil de risco de clientes com o objetivo de identificar padrões e apoiar a tomada de decisão em cenários de crédito / negócio.
+Este projeto tem como objetivo analisar o risco de inadimplência de clientes a partir de dados financeiros, utilizando técnicas de análise exploratória, estatística e modelagem de risco.
 
-A análise busca entender quais características estão associadas a maior probabilidade de risco, permitindo segmentar clientes e reduzir perdas.
+A análise foi desenvolvida no contexto do Bootcamp do Laboratória, com foco em apoiar a tomada de decisão em concessão de crédito.
 
 ---
 
@@ -44,25 +44,52 @@ Para detalhes técnicos, consulte a pasta /sql.
 
 ---
 
-## Principais Insights
+## Avaliação do Modelo
 
-### ⚠️ Perfil de alto risco
-- Clientes com determinadas características apresentam maior probabilidade de risco  
-- Identificação de padrões consistentes entre esse grupo  
+O modelo foi avaliado com base em:
 
-### 📉 Variáveis mais relevantes
-- Algumas variáveis têm maior impacto no risco do que outras  
-- Permite priorizar fatores na tomada de decisão  
+- Acurácia;
+- Precisão;
+- Recall;
+- Matriz de confusão;
 
-### 👥 Segmentação de clientes
-- É possível agrupar clientes por nível de risco  
-- Facilita estratégias diferentes para cada perfil  
+Resultados (exemplo com limiar 22):
 
----
+Acurácia: 88,89%
+Precisão: 64,15%
+Recall: 9,7%
+
+O modelo apresentou perfil conservador, com baixa taxa de falsos negativos.
+
+
+## Modelo Avançado (Random Forest)
+
+Foi testado um modelo de Machine Learning:
+- Comparação com regressão logística;
+- Melhor adaptação a dados com outliers;
+- Capacidade de capturar relações não lineares;
+
+## Resultados
+
+Acurácia: ~99%
+Alta precisão e recall para inadimplentes
+📊 Resultados e Insights
+Clientes mais jovens apresentam maior risco relativo
+Alto número de empréstimos está associado à inadimplência
+Uso elevado de crédito e atrasos são fortes indicadores de risco
+Variáveis isoladas têm baixo poder explicativo → necessidade de combinação (score)
+
+
+## Principais Aprendizados
+- Importância do tratamento de dados antes da análise;
+- Limitações de correlação linear em dados reais;
+- Aplicação de técnicas estatísticas em problemas de negócio;
+- Construção de modelos interpretáveis (score de risco);
+- Comparação entre abordagens estatísticas e ML;
 
 ## Recomendações
-
 - Criar políticas diferenciadas para clientes de alto risco  
 - Monitorar variáveis críticas ao longo do tempo  
 - Utilizar segmentação para tomada de decisão mais assertiva  
 - Considerar modelos preditivos como próximo passo
+  
