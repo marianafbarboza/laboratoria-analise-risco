@@ -15,4 +15,4 @@ SELECT
   COUNTIF(loan_type != 'real_estate') AS qtde_other,
   COUNT(*) AS total_emprestimos
 FROM `risco-relativo-460118.dadosbancocaja.loans_outstanding`
-GROUP BY user_id
+GROUP BY user_id;
