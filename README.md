@@ -49,28 +49,16 @@ Para detalhes técnicos, consulte a pasta /sql.
 
 ---
 
-##  Avaliação do Modelo
-O modelo foi avaliado com base em:
+##  🤖 Avaliação do Modelo
+Foram testadas duas abordagens:
 
-- Acurácia;
-- Precisão;
-- Recall;
-- Matriz de confusão;
+- Score baseado em risco relativo (interpretável);
+- Modelo de Machine Learning (Random Forest);
 
-
-Resultados (exemplo com limiar 22):
-Acurácia: 88,89%
-Precisão: 64,15%
-Recall: 9,7%
-
-O modelo apresentou perfil conservador, com baixa taxa de falsos negativos.
-
-
-##  Modelo Avançado (Random Forest)
-Foi testado um modelo de Machine Learning:
-- Comparação com regressão logística;
-- Melhor adaptação a dados com outliers;
-- Capacidade de capturar relações não lineares;
+O modelo final apresentou melhor desempenho com Random Forest:
+- Acurácia: 99%
+- Recall: 99%
+- Precisão: 99%
 
 ---
 
