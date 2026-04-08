@@ -5,14 +5,19 @@ A análise foi desenvolvida no contexto do Bootcamp do Laboratória, com foco em
 
 ---
 
-## 🎯 Problema de Negócio
+## 📌 Resumo
 
-Como identificar clientes com maior risco de inadimplência (ou comportamento de risco)?
+Este projeto desenvolve um modelo de análise de risco de inadimplência utilizando dados financeiros de clientes.
 
-A análise tem como objetivo apoiar decisões como:
-- concessão de crédito;
-- definição de limites;
-- estratégias de mitigação de risco.
+Principais resultados:
+- Identificação de variáveis com maior impacto no risco (ex: atraso e limite de crédito);
+- Criação de um score de risco interpretável;
+- Modelo final com:
+  - Acurácia: 99%
+  - Recall: 99%
+  - Precisão: 99% (Random Forest)
+
+O modelo permite segmentar clientes em baixo, médio e alto risco, apoiando decisões de crédito.
 
 ---
 
